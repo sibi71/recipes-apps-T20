@@ -1,0 +1,36 @@
+.vege{
+    margin-top: 10px;
+}
+.vege h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+.vege__main{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+   
+}
+.vege__main img{
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+.vege__main p{
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+    transition: 0.5s;
+}
+.vege__main:hover img {
+    width: 80%;
+}
+.vege__main:hover p {
+    display: block;
+    
+}

@@ -1,0 +1,80 @@
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.feedback__left {
+    padding: 20px;
+    width: 60%;
+}
+
+.feedback__left  h1{
+    color: orange;
+}
+.feedback__left form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+.feedback__left form input{
+    height: 40px;
+    background-color:transparent;
+    width: 98%;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.feedback__left form textarea{
+    background-color: transparent;
+    width: 98%;
+    height: 150px;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.feedback__left form  button{
+    border: none;
+    outline: none;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+@media (max-width:800px) {
+   
+    .feedback__left
+     {
+        width: 300px;
+        margin-right: 140px;
+    }
+    .css-hjaenb .MuiTextField-root{
+        width: 40ch !important;
+    }
+}
+@media (max-width:500px) {
+    .feedback__left
+     {
+        width: 300px;
+        margin-right: auto;
+    }
+    .css-hjaenb .MuiTextField-root{
+        width: 39ch !important;
+    }
+}
